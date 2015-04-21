@@ -1,5 +1,6 @@
 # Summary
 This is the summary of my book.
 * [introduction](README.md)
-* [first-linux.md](Install/My-First-Linux.md)
-
+* [first-linux](Install/My-First-Linux.md)
+* [Other](Other/README.md)
+	* [AutoRun](Other/AutoRun/AutoRun类病毒防止策略.md)
