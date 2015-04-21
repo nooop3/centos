@@ -1,5 +1,5 @@
-# Summary
-
-* [introduction](README.md)
-* first-linux.md
-
+**随身CentOS，我的第一个Linux“
+*准备工具
+*解释说明
+*安装步骤
+*写在最后
