@@ -30,7 +30,8 @@
         "pageNumbers": false,
         "paperSize": "a4"
     },
-    "plugins": ["multipart","disqus"],
+    "theme": ["comscore"],
+    "plugins": ["multipart", "disqus"],
     "pluginsConfig": {
         "disqus": {
             "shortName": "centos"

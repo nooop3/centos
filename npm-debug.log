@@ -1,0 +1,64 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/node/bin/node',
+1 verbose cli   '/sbin/npm',
+1 verbose cli   'install',
+1 verbose cli   'gitbook-plugin-comscore' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 verbose cache add [ 'gitbook-plugin-comscore', null ]
+5 verbose cache add name=undefined spec="gitbook-plugin-comscore" args=["gitbook-plugin-comscore",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'gitbook-plugin-comscore',
+6 verbose parsed url   path: 'gitbook-plugin-comscore',
+6 verbose parsed url   href: 'gitbook-plugin-comscore' }
+7 silly lockFile e718b71f-gitbook-plugin-comscore gitbook-plugin-comscore
+8 verbose lock gitbook-plugin-comscore /root/.npm/e718b71f-gitbook-plugin-comscore.lock
+9 silly lockFile e718b71f-gitbook-plugin-comscore gitbook-plugin-comscore
+10 silly lockFile e718b71f-gitbook-plugin-comscore gitbook-plugin-comscore
+11 verbose addNamed [ 'gitbook-plugin-comscore', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 0c0c683d-gitbook-plugin-comscore gitbook-plugin-comscore@
+14 verbose lock gitbook-plugin-comscore@ /root/.npm/0c0c683d-gitbook-plugin-comscore.lock
+15 silly addNameRange { name: 'gitbook-plugin-comscore', range: '*', hasData: false }
+16 verbose url raw gitbook-plugin-comscore
+17 verbose url resolving [ 'https://registry.npmjs.org/', './gitbook-plugin-comscore' ]
+18 verbose url resolved https://registry.npmjs.org/gitbook-plugin-comscore
+19 info trying registry request attempt 1 at 14:04:06
+20 http GET https://registry.npmjs.org/gitbook-plugin-comscore
+21 http 404 https://registry.npmjs.org/gitbook-plugin-comscore
+22 silly registry.get cb [ 404,
+22 silly registry.get   { date: 'Wed, 22 Apr 2015 06:04:07 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=0',
+22 silly registry.get     'content-length': '51',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     'x-served-by': 'cache-nrt6131-NRT',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1429682646.937936,VS0,VE447',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly lockFile 0c0c683d-gitbook-plugin-comscore gitbook-plugin-comscore@
+24 silly lockFile 0c0c683d-gitbook-plugin-comscore gitbook-plugin-comscore@
+25 error 404 'gitbook-plugin-comscore' is not in the npm registry.
+25 error 404 You should bug the author to publish it
+25 error 404
+25 error 404 Note that you can also install from a
+25 error 404 tarball, folder, or http url, or git url.
+26 error System Linux 3.10.0-229.1.2.el7.x86_64
+27 error command "/usr/local/node/bin/node" "/sbin/npm" "install" "gitbook-plugin-comscore"
+28 error cwd /xmulect/centos
+29 error node -v v0.10.24
+30 error npm -v 1.3.21
+31 error code E404
+32 verbose exit [ 1, true ]
