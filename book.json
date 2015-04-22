@@ -31,9 +31,9 @@
         "paperSize": "a4"
     },
     "theme": ["comscore"],
-    "plugins": ["multipart", "disqus"],
+    "plugins": ["youtube", "multipart", "disqus"],
     "pluginsConfig": {
-        "disqus": {
+    "disqus": {
             "shortName": "centos"
         }
     },
